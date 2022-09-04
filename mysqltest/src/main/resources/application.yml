@@ -1,0 +1,12 @@
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/som?useUnicode=true&characterEncoding=utf8
+        username: root
+        password: Weisheng#123
+
+mybatis:
+    mapper-locations: classpath:mapper/db1/*.xml
+    configuration:
+        map-underscore-to-camel-case: true
