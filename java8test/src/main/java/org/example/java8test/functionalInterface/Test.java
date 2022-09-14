@@ -33,10 +33,6 @@ public class Test {
 
     public static void main(String[] args) {
         test3();
-
-        BigDecimal b = BigDecimal.ONE;
-        BigDecimal::add
-
     }
 
 }
