@@ -45,7 +45,5 @@ public class Test {
 
         System.out.println(s2);
         System.out.println(test.s1);
-
-
     }
 }
